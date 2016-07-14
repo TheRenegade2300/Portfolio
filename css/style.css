@@ -1,7 +1,10 @@
 body{
 	margin: 0;
 	font:1em "Open Sans";
+	background-image: url(http://content.hampusolsson.com/downloads/oneplus/misty_mountains.jpg);
 }
+
+
 
 .content{
 	padding: 30px;
@@ -15,11 +18,19 @@ body{
 }
 
 }
-.content{
+.content{ /* this is the gutter code*/
 	border:0pt solid #000;
-	width: 960px;
-	margin:0 auto;
+	width: 400px;
+	margin: 0 auto;
 	height: 100px;
+}
+
+.content p {
+	border:0pt solid #000;
+	width: 1260px;
+	margin: 0 auto;
+	height: 100px;
+	font-size: 20px;
 }
 
 .logo{
@@ -28,6 +39,7 @@ body{
 	padding: 15px 30px;
 	font-size: 1.4em;
 	line-height:40px;
+	text-decoration: none;
 }
 
 .nav-main>ul{
@@ -69,6 +81,10 @@ body{
 
 .nav-content a:hover{
 	text-decoration: underline;
+}
+
+.nav-content a:active{
+	color: yellow;
 }
 
 .nav-sub{
